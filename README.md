@@ -1,1 +1,1 @@
-https://github.com/yatsenkosofiy/first-project
+https://github.com/yatsenkosofiy/ono-tebe-nado-fd.git
