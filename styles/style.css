@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 92px 50px 96px 50px;
+  padding: 92px 50px 95.19px 50px;
   background-color: #fff;
   align-items: center;
 }
@@ -63,7 +63,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 165px 50px 207px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 165px 50px 50px;
 }
 
 .overlay {
@@ -74,42 +77,40 @@
 }
 
 .cover__title {
-  position: relative;
   z-index: 2;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 130%;
-  letter-spacing: 30%;
+  line-height: 115%;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .aligned-text {
   display: block;
 }
 .aligned-text_left {
-  text-align: start;
+  padding-left: 0px;
 }
 
 .aligned-text_center {
-  text-align: center;
+  padding-left: 330.5px;
 }
 
 .aligned-text_right {
-  text-align: right;
+  padding-left: 613px;
 }
 
 .cover__description {
-  position: absolute;
-  right: 50px;
-  bottom: 60px;
-  left: 50px;
   z-index: 2;
   display: flex;
   text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
+  margin: 106px 0 0;
 }
 
 .cover__description-text {
@@ -133,7 +134,9 @@
 }
 
 .lots {
-  padding: 180px 24px 120px;
+  padding: 0 24px 0;
+  margin-top: 180px;
+  margin-bottom: 120px;
 }
 
 .lots__heading {
@@ -230,15 +233,16 @@
 
 .about {
   display: grid;
-  grid-template-columns: 312px 1fr;
-  padding: 35px 0px 0px 67px;
+  grid-template-columns: 359px 1fr;
   align-items: start;
   align-self: baseline;
   justify-content: start;
+  margin: 120px 24px 0;
 }
 
-.about__column {
-  padding-top: 100px;
+.logo__column {
+  padding-top: 35px;
+  padding-left: 47px;
 }
 
 .about__logo {
@@ -250,20 +254,19 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin-top: -100px;
+  
 }
 
 .about__logo-image {
   width: 148px;
+  height: 148px;
 }
 
 .about__title {
-  margin-bottom: 100px;
-  margin-left: 5px;
+  margin: 136px 0 100px;
   color: #000;
   font-weight: 700;
   font-size: 40px;
-  line-height: 47px;
   text-transform: uppercase;
 }
 
